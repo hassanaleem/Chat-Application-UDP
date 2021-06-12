@@ -1,2 +1,2 @@
-# Chat-Application-UDP
-A client server based chat application
+# Chat-Application
+A client server based chat which uses UDP Transport Layer
