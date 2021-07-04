@@ -28,6 +28,10 @@ where USERNAME will be the user. Usernames need to be unique to avoid any confli
 - file sharing to 1 more users
 - quit app
 
-
-
- 
+##  Format:
+```
+Available Users: list
+Message: msg <number_of_users> <username1> <username2> … <message>
+File Sharing: file <number_of_users> <username1> <username2> … <file_name>
+Quit: quit
+```
