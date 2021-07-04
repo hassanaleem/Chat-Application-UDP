@@ -1,11 +1,9 @@
 # Chat-Application
 A client server based chat which uses UDP Transport Layer Protocol
 
-To ensure reliabiltiy, I have implemented checksums, and ack packet. The next packet is only sent when the ack packet for the previous packet is received.
+To ensure reliabiltiy, I have implemented checksums, and ack packet. The next packet is only sent when the ack packet for the previous packet is received. If an ack packet is not received within a certian time, the packet is resent. This is repeated thrice after which the packet is dropped
 
----
 Ack packets are the acknowledgement that the a packet has been received by the end user/server
----
 
 ### Files required to run:
 - client.py  
